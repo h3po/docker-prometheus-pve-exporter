@@ -1,0 +1,4 @@
+default:
+  user: monitoring@pve
+  password: insertyourpassword
+  verify_ssl: false
