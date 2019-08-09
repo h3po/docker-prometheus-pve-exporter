@@ -1,0 +1,1 @@
+simple python3-alpine image with https://github.com/znerol/prometheus-pve-exporter
