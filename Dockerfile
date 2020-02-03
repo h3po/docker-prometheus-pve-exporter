@@ -1,7 +1,7 @@
 FROM python:3-alpine
 
 RUN \
-  pip install prometheus-pve-exporter && \
+  pip install --no-cache-dir prometheus-pve-exporter && \
   mkdir /config
 
 COPY ./pve.yml /config/pve.yml
